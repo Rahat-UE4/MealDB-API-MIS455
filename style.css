@@ -42,3 +42,12 @@ display: grid;
     border-radius: 5px;
     margin-top: 8px;
 }
+
+footer {
+    margin-top: 40px;
+    padding: 12px;
+    background-color: #1e293b;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+}
