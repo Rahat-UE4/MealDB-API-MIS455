@@ -13,9 +13,9 @@ function showMeals(data){
     for (let i = 0; i < data.meals.length; i++) {
         if (i < 5) {
             let mealCard = document.createElement("div");
-            mealCard.innerHTML = `
-                <b>${data.meals[i].strMeal}</b><br>
-                <p>Category: ${data.meals[i].strCategory}</p>
+            mealCard.classList.add("innerStyle");
+            mealCard.innerHTML = `<b>${data.meals[i].strMeal} </b> <br>
+                <p> Category: ${data.meals[i].strCategory} </p>
                 <img src="${data.meals[i].strMealThumb}" alt="Meal Image">`;
                 
             displayBox.appendChild(mealCard);
